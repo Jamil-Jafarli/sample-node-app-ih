@@ -34,18 +34,5 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  },
-  "jest": {
-    "coverageDirectory": "coverage",
-    "reporters": [
-      "default",
-      [
-        "jest-junit",
-        {
-          "outputDirectory": "coverage",
-          "outputName": "junit.xml"
-        }
-      ]
-    ]
   }
 }
